@@ -67,15 +67,20 @@ input{
     border: none;
     outline: 0;
 }
-
+ul{
+    margin: 20px 0 0 21px;
+}
 li{
     display: flex;
     text-decoration: none;
     align-items: center;
-    margin: 22px 21px 0 34px;
+    margin-top: 32px;
+}
+li:first-child{
+    margin-top: 0;
 }
 li img{
-    margin: 13px;
+    margin-right: 13px;
 }
 section{
     display: flex;
