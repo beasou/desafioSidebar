@@ -13,12 +13,14 @@
 }
 p{
     font-size: 15px;
+    font-weight: 400;
 }
 h1{
     font-size: 25px;
+    font-weight: 500;
 }
 h2{
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
 }
 img{
@@ -26,7 +28,7 @@ img{
 }
 body{
     display: flex;
-    gap: 1rem;
+    /*gap: 1rem;*/
     background-color: var(--light-grey);
 }
 .sidebar{
@@ -35,12 +37,11 @@ body{
     background-color: var(--green);
     height: 100vh;
     justify-content: space-between;
-    flex-basis: 270px;
 }
 header{
     display: flex;
     justify-content: space-between;
-    margin: 24px 20px 26px 23px;
+    margin: 24px 14px 27px 29px;
 }
 .logo{
     display: flex;
@@ -52,7 +53,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 27px 20px 20px 8px;
+    margin: 0px 14px 20px 14px;
 }
 .search img{
     padding: 13px;
@@ -68,13 +69,13 @@ input{
     outline: 0;
 }
 ul{
-    margin: 20px 0 0 21px;
+    margin: 21px 0 0 27px;
 }
 li{
     display: flex;
     text-decoration: none;
     align-items: center;
-    margin-top: 32px;
+    margin-top: 34px;
 }
 li:first-child{
     margin-top: 0;
@@ -107,5 +108,5 @@ section{
     border-radius: 12px;
 }
 .container{
-    flex: 1;
+    margin: 18px 0 0 18px;
 }
