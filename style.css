@@ -29,13 +29,13 @@ body{
     gap: 1rem;
     background-color: var(--light-grey);
 }
-
-menu{
-    flex-basis: 270px;
+.sidebar{
+    display: flex;
+    flex-direction: column;
     background-color: var(--green);
-    align-items: center;
     height: 100vh;
     justify-content: space-between;
+    flex-basis: 270px;
 }
 header{
     display: flex;
