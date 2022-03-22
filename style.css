@@ -110,3 +110,40 @@ section{
 .container{
     margin: 18px 0 0 18px;
 }
+
+/*quando estiver ativa*/
+.active{
+    width: 78px;
+}
+.active p, .active .logo{
+    display: none;
+ }
+
+.active.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.active .search img{
+    padding: 13px;
+    background-color: #DCE4E3;
+    border-radius: 12px;
+}
+.active.search{
+    width: 50px;
+    border: none;
+}
+.active input{
+    width: 0px;
+}
+
+.active .info{
+    display: none;
+}
+
+.active section {
+    margin: 0px;
+    padding: 18px 28px 18px 28px;
+}
+ 
